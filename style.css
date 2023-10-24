@@ -12,11 +12,19 @@ nav li{
     list-style:none;
     background-color:lightcoral;
     color:wheat;
-    margin:40px;
+    margin:0;
     flex:1;
     min-width:200px;
     text-align:center;
+    display:flex;
 }
 nav a, nav a:visited{
     text-decoration:none;
+    width:100%;
+    padding:8px 0;
+    color:wheat;
+}
+nav a:hover{
+    color:rgba(234, 77, 77, 1);
+    background-color:rgba(244, 164, 164, 1);
 }
