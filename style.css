@@ -24,7 +24,7 @@ nav a, nav a:visited{
     padding:8px 0;
     color:wheat;
 }
-nav a:hover{
+nav a:hover, nav a.active{
     color:rgba(234, 77, 77, 1);
     background-color:rgba(244, 164, 164, 1);
 }
